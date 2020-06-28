@@ -48,6 +48,8 @@ alias gd='git diff'
 alias ga='git add .'
 alias gm='git checkout master'
 alias gcb='git branch | grep "*"'
-S
+# list remote git branches by author sorted by committer date
+git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate
+
 
 export PATH=$PATH:/usr/local/bin

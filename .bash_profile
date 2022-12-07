@@ -1,10 +1,5 @@
+# Comment below if you don't do Android Development
 export PATH=$PATH:~/Library/Android/sdk/platform-tools/
-export PATH=$PATH:/Users/vn50mr8/.nvm/versions/node/v10.19.0/bin/node
-export PATH=$PATH:/Users/vn50mr8/Downloads/sonar-scanner-4.2.0.1873-macosx/bin
-export node="/Users/vn50mr8/.nvm/versions/node/v10.19.0/bin/node"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home"
-# export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home"
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
